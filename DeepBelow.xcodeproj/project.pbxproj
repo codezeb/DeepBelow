@@ -1,0 +1,466 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8399A74A18787D0900516C9D /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8399A74918787D0900516C9D /* Cocoa.framework */; };
+		8399A75418787D0900516C9D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8399A75218787D0900516C9D /* InfoPlist.strings */; };
+		8399A75618787D0900516C9D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8399A75518787D0900516C9D /* main.m */; };
+		8399A75D18787D0900516C9D /* dbAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8399A75C18787D0900516C9D /* dbAppDelegate.m */; };
+		8399A76018787D0900516C9D /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8399A75E18787D0900516C9D /* MainMenu.xib */; };
+		8399A76918787D0A00516C9D /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8399A74918787D0900516C9D /* Cocoa.framework */; };
+		8399A77118787D0A00516C9D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8399A76F18787D0A00516C9D /* InfoPlist.strings */; };
+		8399A77418787D0A00516C9D /* DeepBelowTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8399A77318787D0A00516C9D /* DeepBelowTests.m */; };
+		8399A77E18787D1A00516C9D /* ScriptingBridge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8399A77D18787D1A00516C9D /* ScriptingBridge.framework */; };
+		83D37A8D187B479C00B7B98E /* Icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 83D37A8C187B479C00B7B98E /* Icon.icns */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8399A76A18787D0A00516C9D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8399A73E18787D0900516C9D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8399A74518787D0900516C9D;
+			remoteInfo = DeepBelow;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8399A74618787D0900516C9D /* DeepBelow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DeepBelow.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8399A74918787D0900516C9D /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		8399A74C18787D0900516C9D /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		8399A74D18787D0900516C9D /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		8399A74E18787D0900516C9D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8399A75118787D0900516C9D /* DeepBelow-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DeepBelow-Info.plist"; sourceTree = "<group>"; };
+		8399A75318787D0900516C9D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8399A75518787D0900516C9D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8399A75718787D0900516C9D /* DeepBelow-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DeepBelow-Prefix.pch"; sourceTree = "<group>"; };
+		8399A75B18787D0900516C9D /* dbAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = dbAppDelegate.h; sourceTree = "<group>"; };
+		8399A75C18787D0900516C9D /* dbAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = dbAppDelegate.m; sourceTree = "<group>"; };
+		8399A75F18787D0900516C9D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		8399A76618787D0A00516C9D /* DeepBelowTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DeepBelowTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8399A76E18787D0A00516C9D /* DeepBelowTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DeepBelowTests-Info.plist"; sourceTree = "<group>"; };
+		8399A77018787D0A00516C9D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8399A77218787D0A00516C9D /* DeepBelowTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DeepBelowTests.h; sourceTree = "<group>"; };
+		8399A77318787D0A00516C9D /* DeepBelowTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DeepBelowTests.m; sourceTree = "<group>"; };
+		8399A77D18787D1A00516C9D /* ScriptingBridge.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ScriptingBridge.framework; path = System/Library/Frameworks/ScriptingBridge.framework; sourceTree = SDKROOT; };
+		8399A77F18787D6900516C9D /* iTunes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iTunes.h; sourceTree = "<group>"; };
+		83D37A8C187B479C00B7B98E /* Icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = Icon.icns; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8399A74318787D0900516C9D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8399A77E18787D1A00516C9D /* ScriptingBridge.framework in Frameworks */,
+				8399A74A18787D0900516C9D /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8399A76218787D0A00516C9D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8399A76918787D0A00516C9D /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8399A73D18787D0900516C9D = {
+			isa = PBXGroup;
+			children = (
+				8399A74F18787D0900516C9D /* DeepBelow */,
+				8399A76C18787D0A00516C9D /* DeepBelowTests */,
+				8399A74818787D0900516C9D /* Frameworks */,
+				8399A74718787D0900516C9D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8399A74718787D0900516C9D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8399A74618787D0900516C9D /* DeepBelow.app */,
+				8399A76618787D0A00516C9D /* DeepBelowTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8399A74818787D0900516C9D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8399A77D18787D1A00516C9D /* ScriptingBridge.framework */,
+				8399A74918787D0900516C9D /* Cocoa.framework */,
+				8399A74B18787D0900516C9D /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8399A74B18787D0900516C9D /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8399A74C18787D0900516C9D /* AppKit.framework */,
+				8399A74D18787D0900516C9D /* CoreData.framework */,
+				8399A74E18787D0900516C9D /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		8399A74F18787D0900516C9D /* DeepBelow */ = {
+			isa = PBXGroup;
+			children = (
+				83D37A8C187B479C00B7B98E /* Icon.icns */,
+				8399A77F18787D6900516C9D /* iTunes.h */,
+				8399A75B18787D0900516C9D /* dbAppDelegate.h */,
+				8399A75C18787D0900516C9D /* dbAppDelegate.m */,
+				8399A75E18787D0900516C9D /* MainMenu.xib */,
+				8399A75018787D0900516C9D /* Supporting Files */,
+			);
+			path = DeepBelow;
+			sourceTree = "<group>";
+		};
+		8399A75018787D0900516C9D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8399A75118787D0900516C9D /* DeepBelow-Info.plist */,
+				8399A75218787D0900516C9D /* InfoPlist.strings */,
+				8399A75518787D0900516C9D /* main.m */,
+				8399A75718787D0900516C9D /* DeepBelow-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8399A76C18787D0A00516C9D /* DeepBelowTests */ = {
+			isa = PBXGroup;
+			children = (
+				8399A77218787D0A00516C9D /* DeepBelowTests.h */,
+				8399A77318787D0A00516C9D /* DeepBelowTests.m */,
+				8399A76D18787D0A00516C9D /* Supporting Files */,
+			);
+			path = DeepBelowTests;
+			sourceTree = "<group>";
+		};
+		8399A76D18787D0A00516C9D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8399A76E18787D0A00516C9D /* DeepBelowTests-Info.plist */,
+				8399A76F18787D0A00516C9D /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8399A74518787D0900516C9D /* DeepBelow */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8399A77718787D0A00516C9D /* Build configuration list for PBXNativeTarget "DeepBelow" */;
+			buildPhases = (
+				8399A74218787D0900516C9D /* Sources */,
+				8399A74318787D0900516C9D /* Frameworks */,
+				8399A74418787D0900516C9D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DeepBelow;
+			productName = DeepBelow;
+			productReference = 8399A74618787D0900516C9D /* DeepBelow.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8399A76518787D0A00516C9D /* DeepBelowTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8399A77A18787D0A00516C9D /* Build configuration list for PBXNativeTarget "DeepBelowTests" */;
+			buildPhases = (
+				8399A76118787D0A00516C9D /* Sources */,
+				8399A76218787D0A00516C9D /* Frameworks */,
+				8399A76318787D0A00516C9D /* Resources */,
+				8399A76418787D0A00516C9D /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8399A76B18787D0A00516C9D /* PBXTargetDependency */,
+			);
+			name = DeepBelowTests;
+			productName = DeepBelowTests;
+			productReference = 8399A76618787D0A00516C9D /* DeepBelowTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8399A73E18787D0900516C9D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = db;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = digitalforest;
+			};
+			buildConfigurationList = 8399A74118787D0900516C9D /* Build configuration list for PBXProject "DeepBelow" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8399A73D18787D0900516C9D;
+			productRefGroup = 8399A74718787D0900516C9D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8399A74518787D0900516C9D /* DeepBelow */,
+				8399A76518787D0A00516C9D /* DeepBelowTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8399A74418787D0900516C9D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8399A75418787D0900516C9D /* InfoPlist.strings in Resources */,
+				8399A76018787D0900516C9D /* MainMenu.xib in Resources */,
+				83D37A8D187B479C00B7B98E /* Icon.icns in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8399A76318787D0A00516C9D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8399A77118787D0A00516C9D /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8399A76418787D0A00516C9D /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8399A74218787D0900516C9D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8399A75618787D0900516C9D /* main.m in Sources */,
+				8399A75D18787D0900516C9D /* dbAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8399A76118787D0A00516C9D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8399A77418787D0A00516C9D /* DeepBelowTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8399A76B18787D0A00516C9D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8399A74518787D0900516C9D /* DeepBelow */;
+			targetProxy = 8399A76A18787D0A00516C9D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8399A75218787D0900516C9D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8399A75318787D0900516C9D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		8399A75E18787D0900516C9D /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8399A75F18787D0900516C9D /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		8399A76F18787D0A00516C9D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8399A77018787D0A00516C9D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8399A77518787D0A00516C9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		8399A77618787D0A00516C9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		8399A77818787D0A00516C9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DeepBelow/DeepBelow-Prefix.pch";
+				INFOPLIST_FILE = "DeepBelow/DeepBelow-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.5;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx10.7;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		8399A77918787D0A00516C9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DeepBelow/DeepBelow-Prefix.pch";
+				INFOPLIST_FILE = "DeepBelow/DeepBelow-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.5;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx10.7;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		8399A77B18787D0A00516C9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/DeepBelow.app/Contents/MacOS/DeepBelow";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = "\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DeepBelow/DeepBelow-Prefix.pch";
+				INFOPLIST_FILE = "DeepBelowTests/DeepBelowTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		8399A77C18787D0A00516C9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/DeepBelow.app/Contents/MacOS/DeepBelow";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = "\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DeepBelow/DeepBelow-Prefix.pch";
+				INFOPLIST_FILE = "DeepBelowTests/DeepBelowTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8399A74118787D0900516C9D /* Build configuration list for PBXProject "DeepBelow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8399A77518787D0A00516C9D /* Debug */,
+				8399A77618787D0A00516C9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8399A77718787D0A00516C9D /* Build configuration list for PBXNativeTarget "DeepBelow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8399A77818787D0A00516C9D /* Debug */,
+				8399A77918787D0A00516C9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8399A77A18787D0A00516C9D /* Build configuration list for PBXNativeTarget "DeepBelowTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8399A77B18787D0A00516C9D /* Debug */,
+				8399A77C18787D0A00516C9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8399A73E18787D0900516C9D /* Project object */;
+}
