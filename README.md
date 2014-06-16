@@ -1,3 +1,4 @@
+![example1][example1]
 ![Logo][Logo]
 
 DeepBelow
@@ -13,7 +14,6 @@ You can't imagine that? See the examples! :wink:
 
 Examples
 --------
-![example1][example1]
 ![example2][example2]
 ![example3][example3]
 
