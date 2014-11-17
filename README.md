@@ -20,8 +20,8 @@ Examples
 Settings
 --------
 
-At the moment, there is no functional Preference Pane. :thumbsdown:  However, you can edit the raw settings file, which is located here:
-`~/Library/Preferences/org.dyndns.digitalforest.DeepBelow.plist`. Simply open it up with Xcode. Have either a look into the code or into the following notes to understand the items in there:
+At the moment, there is no working Preference Pane. :thumbsdown:  However, you can edit the raw settings file, which is located here:
+`~/Library/Preferences/com.github.codezeb.DeepBelow.plist`. Simply open it up with Xcode. Have either a look into the code or into the following notes to understand the items in there:
 
 |Key Name | Default Value | Description |
 |---------|---------------|------------ |
